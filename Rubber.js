@@ -23,7 +23,7 @@ class Rubber{
 	{
 			var pos=this.body.position;		
 			var angle= this.body.angle;
-			push()
+			push();
 			translate(pos.x,pos.y);
 			rotate(angle);
 			rectMode(CENTER)
@@ -31,9 +31,9 @@ class Rubber{
 			stroke("black");
 			fill("darkblue");
 			
-            ellipse(0,0,this.r);
+            ellipse(0,0,this.r,this.r);
 
-			pop()
+			pop();
 	}
 
 }
